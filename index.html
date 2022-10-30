@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+      <!-- Style sheet for default theme (flat azure) -->
+      <link href="http://cdn.syncfusion.com/20.3.0.47/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+      <!--Scripts-->
+      <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"> </script>
+      <script src="http://cdn.syncfusion.com/20.3.0.47/js/web/ej.web.all.min.js"></script>
+      <!--Add custom scripts here -->
+   </head>
+   <body>
+      <div class="control">
+   <input type="text" id="dateTime" />
+</div>
+<!-- Jodi project use kri tahole function likte hbe
+<script type="text/javascript">
+    $(function () {
+        $('#dateTime').ejDateTimePicker({
+            interval: 05,
+            width:'100%',
+        });
+    });
+</script>
+-->
+<!-- <script>
+$('#dateTime').ejDateTimePicker({
+        width: '100%',
+        timeDrillDown: {
+         enabled: true,
+         interval: 1,
+         showMeridian: true
+        },
+    });
+</script>
+-->
+<!--
+<script>
+    $('#dateTime').ejDateTimePicker({
+       dayHeaderFormat: "showHeaderShort",
+       width: '200px',
+    });
+</script>
+-->
+<script>
+    $('#dateTime').ejDateTimePicker({
+       interval: 05,
+       width: '200px',
+    });
+</script>
+   </body>
+</html>
